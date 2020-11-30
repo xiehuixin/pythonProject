@@ -1,0 +1,13 @@
+cat:
+  name: 小黑
+  color: 黑
+  age: 1
+  gender: 女
+  hair: 短毛
+
+dog:
+  name: 小白
+  color: 白
+  age: 2
+  gender: 女
+  hair: 长毛
