@@ -1,4 +1,4 @@
-# 发工资模块 send_money，用来增加收入计算
+# 发工资模块 send_money，用来增加收入计算。
 import money
 
 

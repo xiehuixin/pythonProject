@@ -1,4 +1,4 @@
-# 工资查询模块 select_money，用来展示工资数额
+# 工资查询模块 select_money，用来展示工资数额。
 import money
 
 
