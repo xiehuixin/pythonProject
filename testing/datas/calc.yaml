@@ -1,0 +1,68 @@
+# 加法
+add:
+  datas:
+    - - 1
+      - 1
+      - 2
+    - - 100
+      - 100
+      - 200
+    - [ 0.1, 0.2, 0.3 ]
+    - [ 0.1, -0.2, 0.3 ]
+    - [ -1, -1, -2 ]
+  myid:
+    - 'int'
+    - 'bigint'
+    - 'float'
+    - 'failed'
+    - 'negative'
+
+# 减法
+sub:
+  datas:
+    - [ 1, 1, 0 ]
+    - [ 100, 100, 0 ]
+    - [ 0.1, 0.1, 0 ]
+    - [ 0.1, -0.2, 0 ]
+    - [ -1, -1, 0 ]
+  myid:
+    - 'int'
+    - 'bigint'
+    - 'float'
+    - 'failed'
+    - 'negative'
+
+  # 乘法
+mul:
+  datas:
+    - [ 1, 2, 2 ]
+    - [ 100, 200, 20000 ]
+    - [ 0.1, 0.2, 0.02 ]
+    - [ 0.1, -0.2, 0.3 ]
+    - [ -1, -1, 1 ]
+    - [ 1, 0, 0 ]
+  myid:
+    - 'int'
+    - 'bigint'
+    - 'float'
+    - 'failed'
+    - 'negative'
+    - 'zero'
+
+  # 除法
+div:
+  datas:
+    - [ 2, 1, 2 ]
+    - [ 200, 100, 2 ]
+    - [ 0.2, 0.1, 2 ]
+    - [ 0.1, -0.2, 0.3 ]
+    - [ -1, -1, 1 ]
+    - [ 1, 0, ZeroDivisionError ]
+  myid:
+    - 'int'
+    - 'bigint'
+    - 'float'
+    - 'failed'
+    - 'negative'
+    - 'zero'
+
