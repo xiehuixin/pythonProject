@@ -1,0 +1,198 @@
+{
+  "uid": "4b4757e66a1912dae1a509f688f20b0f",
+  "name": "categories",
+  "children": [
+    {
+      "name": "Product defects",
+      "children": [
+        {
+          "name": "AssertionError: assert -0.1 == 0.3\n  +-0.1\n  -0.3",
+          "children": [
+            {
+              "name": "test_add[failed]",
+              "uid": "86ea51ed30dce53b",
+              "parentUid": "727731a6eb279f270e2d336b647c2847",
+              "status": "failed",
+              "time": {
+                "start": 1607677529438,
+                "stop": 1607677529438,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[0.1, -0.2, 0.3]"
+              ]
+            }
+          ],
+          "uid": "727731a6eb279f270e2d336b647c2847"
+        },
+        {
+          "name": "AssertionError: assert None == '请输入数字'\n  +None\n  -'请输入数字'",
+          "children": [
+            {
+              "name": "test_add[空格]",
+              "uid": "a3e2e7addcc0487e",
+              "parentUid": "c10bf10faa0c9ffa48ed60e2306e8927",
+              "status": "failed",
+              "time": {
+                "start": 1607677529500,
+                "stop": 1607677529501,
+                "duration": 1
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[' ', 5, '请输入数字']"
+              ]
+            },
+            {
+              "name": "test_sub[空格]",
+              "uid": "ccf212c92fd30f80",
+              "parentUid": "c10bf10faa0c9ffa48ed60e2306e8927",
+              "status": "failed",
+              "time": {
+                "start": 1607677529571,
+                "stop": 1607677529571,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[' ', 7, '请输入数字']"
+              ]
+            },
+            {
+              "name": "test_div[空格]",
+              "uid": "9230bf5089f68ba2",
+              "parentUid": "c10bf10faa0c9ffa48ed60e2306e8927",
+              "status": "failed",
+              "time": {
+                "start": 1607677529762,
+                "stop": 1607677529762,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[' ', 6, '请输入数字']"
+              ]
+            }
+          ],
+          "uid": "c10bf10faa0c9ffa48ed60e2306e8927"
+        },
+        {
+          "name": "AssertionError: assert 0.3 == 0\n  +0.3\n  -0",
+          "children": [
+            {
+              "name": "test_sub[failed]",
+              "uid": "f4ef2417c8174d8b",
+              "parentUid": "373b35f82a049b429d15b54e0fa0bebd",
+              "status": "failed",
+              "time": {
+                "start": 1607677529542,
+                "stop": 1607677529542,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[0.1, -0.2, 0]"
+              ]
+            }
+          ],
+          "uid": "373b35f82a049b429d15b54e0fa0bebd"
+        },
+        {
+          "name": "AssertionError: assert -0.02 == 0.3\n  +-0.02\n  -0.3",
+          "children": [
+            {
+              "name": "test_mul[failed]",
+              "uid": "570b276372f44fef",
+              "parentUid": "5ac7619b87f8a88d2222c846b67cd7de",
+              "status": "failed",
+              "time": {
+                "start": 1607677529623,
+                "stop": 1607677529623,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[0.1, -0.2, 0.3]"
+              ]
+            }
+          ],
+          "uid": "5ac7619b87f8a88d2222c846b67cd7de"
+        },
+        {
+          "name": "AssertionError: assert '        ' == '请输入数字'\n  Strings contain only whitespace, escaping them using repr()\n  - '请输入数字'\n  + '        '",
+          "children": [
+            {
+              "name": "test_mul[空格]",
+              "uid": "a375eba38071472c",
+              "parentUid": "95a153f56d8344f81878b09b24c2e84e",
+              "status": "failed",
+              "time": {
+                "start": 1607677529661,
+                "stop": 1607677529663,
+                "duration": 2
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[' ', 8, '请输入数字']"
+              ]
+            }
+          ],
+          "uid": "95a153f56d8344f81878b09b24c2e84e"
+        },
+        {
+          "name": "AssertionError: assert -0.5 == 0.3\n  +-0.5\n  -0.3",
+          "children": [
+            {
+              "name": "test_div[failed]",
+              "uid": "5cefd0660b07604e",
+              "parentUid": "0b4a6ba721da5f1417cb5851e1584b44",
+              "status": "failed",
+              "time": {
+                "start": 1607677529713,
+                "stop": 1607677529713,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[0.1, -0.2, 0.3]"
+              ]
+            }
+          ],
+          "uid": "0b4a6ba721da5f1417cb5851e1584b44"
+        },
+        {
+          "name": "AssertionError: assert None == '被除数不为0'\n  +None\n  -'被除数不为0'",
+          "children": [
+            {
+              "name": "test_div[zero]",
+              "uid": "a306361232e1e5eb",
+              "parentUid": "72a2fc242b32d36a8889518ea6035231",
+              "status": "failed",
+              "time": {
+                "start": 1607677529740,
+                "stop": 1607677529741,
+                "duration": 1
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[1, 0, '被除数不为0']"
+              ]
+            }
+          ],
+          "uid": "72a2fc242b32d36a8889518ea6035231"
+        }
+      ],
+      "uid": "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+    }
+  ]
+}
